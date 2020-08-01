@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    background-color: gray;
+}
+.selection{
+    display: inline-block;
+
+}
+
+.selection_button {
+    display: inline-block;
+    border-radius: 8px;
+    border-color: gray;
+    background-color: white;
+    color: gray;
+}
+.selection_button:hover {
+    background-color: #008fc7;
+    color: white;
+    cursor: pointer;
+}
+.selection_button:active {
+    background-color: green;
+    color: white;
+    
+}
+table th{
+    background-color: gold;
+    color: black;
+}
+table tr{
+    background-color: black;
+    color: white;
+}
+table td{
+    text-align: center;
+}
+
+#registration_form {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+label {
+    margin-bottom: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+input {
+    padding: 2px;
+}
+#Register{
+    border-top: black;
+}
+#register:onclick {
+    border-top: none;
+}
+.menu {
+    display: block;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.selection_button_I {
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #008fc7;
+    color: white;
+}
+.selection_button_I:hover{
+    background-color: blue;
+}
+.selection_button_I:active{
+    background-color: white;
+    color: blue;
+}
